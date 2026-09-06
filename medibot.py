@@ -6,7 +6,7 @@ def get_qa_chain():
     return build_qa_chain()
 
 def main():
-    st.title("Ask Chatbot")
+    st.title("AI Based Medical RAG Chatbot")
     if 'messages' not in st.session_state:
         st.session_state.messages=[]
         
